@@ -1,0 +1,28 @@
+.parent-container {
+  display: grid;
+  grid-template-columns: 4, 1fr;
+  grid-template-rows: 4, 1fr;
+}
+
+.header {
+  grid-area: 1 / 1 / 2 / 5;
+  background-color: rgb(156, 156, 214);
+  text-align: center;
+}
+.footer {
+  grid-area: 4 / 1 / 5 / 5;
+  background-color: rgb(156, 156, 214);
+  text-align: center;
+}
+.posts {
+  grid-area: 2 / 2 / 4 / 4;
+  margin: 5rem;
+}
+.recent-entries {
+  grid-area: 2 / 4 / 4 / 5;
+  margin: 5rem;
+}
+.other-blog {
+  grid-area: 2 / 1 / 4 / 2;
+  margin: 5rem;
+}
